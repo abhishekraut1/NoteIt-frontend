@@ -103,3 +103,9 @@ font-family: 'Phudu', cursive;
 .custom-toggler .navbar-toggler {
   border-color: #1b0f40;
 } 
+
+@media screen and (min-width: 992px) {
+  .custom-toggler {
+    display: none;
+  }
+}
