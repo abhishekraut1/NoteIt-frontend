@@ -37,11 +37,10 @@ a{
 .nav-link:hover{
   color: #1b0f40;
   background-color: white;
-  border-radius: 1.5rem;
+  border-radius: 0.8rem;
 } 
 .navbar-brand:hover{
-  color: #1b0f40;
-  border-radius: 1.5rem;
+  color: white;
 } 
 
 .card-body {
