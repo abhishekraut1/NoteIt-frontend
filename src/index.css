@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Phudu', cursive;
+  /* font-family: 'cascadia code',Consolas, 'Courier New', monospace; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1b0f40;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+i{
+  cursor: pointer;
+}
+
+.navbar{
+  background: #3a297a;
+}
+
+.navbar-brand{
+  font-family: 'Phudu', cursive;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+a{
+  color: white;
+}
+
+.nav-link{
+  color: white;
+} 
+.nav-link:hover{
+  color: #1b0f40;
+  background-color: white;
+  border-radius: 1.5rem;
+} 
+.navbar-brand:hover{
+  color: #1b0f40;
+  border-radius: 1.5rem;
+} 
+
+.card-body {
+  color: black;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b0f40;
+  border-color: #ffffff;
+}
+.btn-primary:hover {
+  color: #1b0f40;
+  background-color: white;
+}
+
+button.btn{
+  color: #fff;
+  background-color: #1b0f40;
+  border-color: #ffffff;
+}
+
+button.btn :hover {
+  color: #1b0f40;
+  background-color: white;
+}
+
+input{
+  font-family: 'Patrick Hand', cursive;
+}
+
+.material-icons{
+  font-size: 1rem;
+}
+
+.fa-regular{
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
