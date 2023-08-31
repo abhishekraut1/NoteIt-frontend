@@ -90,9 +90,7 @@ input{
 }
 
 h5{
-  font-family: 'Castoro Titling', cursive;
-font-family: 'Patrick Hand', cursive;
-font-family: 'Phudu', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .custom-toggler .navbar-toggler-icon {
