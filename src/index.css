@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Phudu', cursive;
+
+  font-family: 'Poppins', sans-serif;
+
   /* font-family: 'cascadia code',Consolas, 'Courier New', monospace; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,7 +47,7 @@ a{
 
 .card-body {
   color: black;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Palanquin Dark', sans-serif;
 }
 
 .btn-primary {
@@ -70,7 +72,7 @@ button.btn :hover {
 }
 
 input{
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Palanquin Dark', sans-serif;
 }
 
 .material-icons{
@@ -105,4 +107,10 @@ h5{
   .custom-toggler {
     display: none;
   }
+}
+
+li{
+  list-style-type: none;
+  margin: 0.5rem 0;
+  word-spacing: 1.5px;
 }
