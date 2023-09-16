@@ -71,7 +71,7 @@ function Navbar() {
           onClick={toggleNavbar}
         >
           <span className="custom-menu-icon">
-            <i className="fas fa-bars" style={{ fontSize: '24px' }}></i>
+                <Link className="fas fa-bars" style={{ fontSize: '24px', color: 'white', textDecoration: 'none' }} ></Link>
           </span>
         </button>
         <div className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`} id="navbarSupportedContent">
