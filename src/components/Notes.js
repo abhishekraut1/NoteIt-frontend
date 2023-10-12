@@ -60,15 +60,15 @@ return (
 
                 <form className='my-3 container'>
                     <div className="mb-3">
-                        <label htmlFor="title" className="form-label" >Title</label>
+                        <label htmlFor="title" className="form-label modalTextColor" >Title</label>
                         <input type="text" className="form-control" id="etitle" name="etitle" value={note.etitle} onChange={onChange} minLength={5} required />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="description" className="form-label" >Description</label>
+                        <label htmlFor="description" className="form-label modalTextColor" >Description</label>
                         <input type="text" className="form-control" value={note.edescription} onChange={onChange} id="edescription" name="edescription" minLength={5} required />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="tag" className="form-label">Tag</label>
+                        <label htmlFor="tag" className="form-label modalTextColor">Tag</label>
                         <input type="text" className="form-control" value={note.etag} onChange={onChange} id="etag" name="etag" />
                     </div>
                 </form> 
